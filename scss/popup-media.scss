@@ -1,0 +1,88 @@
+@media screen and (max-width: 1055px){
+    .container__modal .item form .row{
+        flex-direction: column;
+    }
+    .container__modal .item form .row .input{
+        width: 100%;
+    }
+    
+        .container__modal .item form .row input:not(.recaptcha), .container__modal .item form .row textarea{
+        width: 100%;
+        max-width: initial;
+    }
+    .container__modal .item .close{
+        top: 15px;
+    }
+    .container__modal .item__thank .title__modal{
+        padding-top: 0;
+        // font-size: 25px;
+    }
+    .container__modal .item{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .container__modal .item form .row__robot .inner{
+        max-width: 100%;
+    }
+    .container__modal .item form .row .label {
+        margin-bottom: 10px;
+    }
+    .container__modal .item form .wrapper__btn{
+        justify-content: center;
+    }
+    .container__modal .item .title__modal{
+       margin-bottom: 0;
+   }
+    
+}
+@media screen and (max-width: 900px){
+    .container__modal .item form .wrapper__btn{
+        margin-right: 0;
+        width: 100%;
+    }
+    .container__modal{
+        // margin-top: 20px;
+        flex-wrap: wrap;
+        top: 50px;
+    }
+    .container__modal .item__thank{
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .container__modal .item.item__thank{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 730px){
+    .container__modal{
+        flex-wrap: wrap;
+        top: 20px;
+    }
+   .container__modal .item__thank{
+       margin-left: 0;
+       margin-top: 40px;
+       padding-bottom: 120px;
+   }
+    .container__modal .item__thank .subtitle{
+        font-size: 12px;
+    }
+    .container__modal .item form{
+        align-items: center;
+    }
+    .container__modal .item form .row{
+        width: 100%;
+        .input{
+            width: 100%;
+            input,
+            textarea{
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    }
+   .container__modal .item form .row input:not(.recaptcha), .container__modal .item form .row textarea{
+       width: 100%!important;
+   }
+}
