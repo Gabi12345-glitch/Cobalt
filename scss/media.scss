@@ -1,0 +1,202 @@
+@media screen and (max-width: 1105px) {
+  header .content .title {
+    font-size: 6vw;
+  }
+  header .content .subtitle {
+    font-size: 17px;
+    max-width: 1000px;
+  }
+  header .content .btn__contact--content {
+    padding: 10px 40px;
+  }
+  section.inovation .container__inovation .content .title {
+    font-size: 30px;
+  }
+
+  section.task {
+    background-position: bottom;
+  }
+  section.task .container__task {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.task .container__task .row {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section.inovation .container__inovation {
+    flex-direction: column;
+    align-items: center;
+  }
+  section.inovation .container__inovation--first {
+    .content {
+      order: 2;
+    }
+    .img {
+      order: 1;
+    }
+  }
+  .container__inovation--third {
+    .content {
+      order: 2;
+    }
+    .img {
+      order: 1;
+    }
+  }
+  section.inovation .container__inovation .content {
+    margin-right: 0;
+  }
+
+  section.inovation .container__inovation .content .title {
+    text-align: center;
+  }
+
+  footer .block__footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .block__footer .col__footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 990px) {
+    .container__modal .item .title__modal{
+        font-size: 25px;
+    }
+  footer {
+    margin-bottom: 150px;
+  }
+  footer .block__footer .col__footer .inner__col {
+    margin-bottom: 30px;
+  }
+  footer .block__footer .col__footer .social {
+    // margin-top: 30px;
+    margin-left: 35px;
+  }
+
+  .col__footer--second {
+    margin-top: 30px;
+  }
+  footer .block__footer .col__footer--second {
+    max-width: 100%;
+    a {
+      margin: 0 20px;
+    }
+  }
+  .container__modal .item form .row .input input,
+  .container__modal .item form .row .input textarea {
+    max-width: 100% !important;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 630px) {
+  nav {
+    a {
+      img {
+        width: 110px;
+      }
+    }
+  }
+  header .content .subtitle {
+    font-size: 3vw;
+  }
+  .btn__contact--header {
+    padding: 5px 17px;
+  }
+  section.inovation .container__inovation .content .title {
+    font-size: 21px;
+  }
+  section.inovation .container__inovation .content .wrapper__subtitle .text {
+    font-size: 14px;
+  }
+  section.inovation
+    .container__inovation
+    .content
+    .wrapper__subtitle
+    .ul__inovation
+    li {
+    font-size: 14px;
+  }
+  section.task .container__task .row {
+    justify-content: space-between;
+  }
+  section.task .container__task .col {
+    margin: 0 15px;
+  }
+  section.task .container__task .img {
+    width: 70px;
+    height: 70px;
+  }
+  section.task .container__task .subtitle {
+    font-size: 3vw;
+  }
+  section.task .container__task .text {
+    font-size: 3vw;
+  }
+
+  section.working .container__bulid .subtitle__build {
+    font-size: 4vw;
+  }
+  section.working .owl-carousel .container {
+    padding: 40px 40px;
+  }
+  section.working .owl-carousel .owl-nav {
+    top: 120px;
+  }
+  section.working .owl-carousel .container .subtitle {
+    font-size: 2.5vw;
+  }
+  section.working .owl-carousel .container .info {
+    font-size: 2vw;
+  }
+  section.working .owl-carousel .container .block__avatar {
+    max-width: 240px;
+  }
+  section.working .owl-carousel .logo img {
+    width: 75px;
+  }
+  section.working .owl-carousel .avatar img {
+    width: 40px;
+  }
+  .title__default {
+    font-size: 7vw;
+  }
+  footer .block__footer .col__footer .social {
+    margin-left: 0;
+    a {
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  footer .block__footer .col__footer .inner__col .logo {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 430px) {
+  section.inovation .container__inovation .content .title {
+    font-size: 17px;
+  }
+  section.working .owl-carousel .container .block__avatar {
+    justify-content: unset;
+    .avatar {
+      margin-right: 30px;
+    }
+  }
+  footer .block__footer .col__footer .link__footer {
+    font-size: 10px;
+  }
+}
