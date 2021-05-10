@@ -114,7 +114,7 @@ header,main{
             }
         }
         .wrapper__btn{
-            margin-right: 20px;
+            // margin-right: 20px;
             display: flex;
             justify-content: flex-end;
         }
@@ -125,14 +125,22 @@ header,main{
         }
         
     }
-    .item__thank{
+      .item__thank{
+             
+            padding-bottom: 175px;
         .title__modal{
-            padding-top: 195px;
+            padding-top: 150px;
             margin-bottom: 15px;
         }
         .subtitle{
             font-size: 14px;
         }
         
-    }
+    }  
+   
 }
+ 
+    
+        
+    
+    

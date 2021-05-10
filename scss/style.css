@@ -3,6 +3,7 @@ body {
 }
 
 header {
+  overflow: hidden;
   position: relative;
   margin-top: 20px;
 }
@@ -72,7 +73,7 @@ section.inovation .container__inovation .content .title {
 }
 
 section.inovation .container__inovation .content .wrapper__subtitle {
-  color: #bfcfe8;
+  color: #949EC4;
   max-width: 620px;
 }
 
@@ -265,6 +266,7 @@ section.working .owl-carousel .owl-dots button.active {
 section.working .owl-carousel .container {
   position: relative;
   background-image: url(../img/carousel/sign.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   padding: 40px 95px;
@@ -324,8 +326,9 @@ section.working .container__bulid .btn__contact--content-build {
 }
 
 footer {
-  padding-top: 40px;
+  padding-top: 50px;
   border: 1px solid rgba(38, 111, 226, 0.2);
+  padding-bottom: 50px !important;
   padding-bottom: 340px;
 }
 

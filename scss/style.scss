@@ -3,6 +3,7 @@ body {
 }
 // header
 header {
+  overflow: hidden;
   position: relative;
   margin-top: 20px;
   nav {
@@ -53,7 +54,7 @@ section.inovation {
         margin-bottom: 30px;
       }
       .wrapper__subtitle {
-        color: #bfcfe8;
+        color: #949EC4;
         max-width: 620px;
         .text {
           font-size: 18px;
@@ -199,6 +200,7 @@ section.working {
     .container {
         position: relative;
       background-image: url(../img/carousel/sign.png);
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: right;
       padding: 40px 95px;border-radius: 5px;
@@ -243,8 +245,9 @@ section.working {
   }
 }
 footer {
-  padding-top: 40px;
+  padding-top: 50px;
   border: 1px solid rgba(38, 111, 226, 0.2);
+  padding-bottom: 50px!important;
   .block__footer {
     display: flex;
     justify-content: space-between;

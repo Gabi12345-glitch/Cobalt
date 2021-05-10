@@ -81,16 +81,13 @@
   footer .block__footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   footer .block__footer .col__footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  footer .block__footer .col__footer--second .link__footer {
+    margin-left: 10px;
   }
 }
 
@@ -98,8 +95,8 @@
   .container__modal .item .title__modal {
     font-size: 25px;
   }
-  footer {
-    margin-bottom: 150px;
+  footer .block__footer .col__footer--second .link__footer {
+    margin-left: 30px;
   }
   footer .block__footer .col__footer .inner__col {
     margin-bottom: 30px;
@@ -116,10 +113,18 @@
   footer .block__footer .col__footer--second a {
     margin: 0 20px;
   }
-  .container__modal .item form .row .input input,
-  .container__modal .item form .row .input textarea {
-    max-width: 100% !important;
-    width: 400px;
+  footer .block__footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  footer .block__footer .col__footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -154,6 +159,7 @@ li {
   }
   section.task .container__task .col {
     margin: 0 15px;
+    width: 35%;
   }
   section.task .container__task .img {
     width: 70px;
@@ -186,11 +192,26 @@ li {
   section.working .owl-carousel .logo img {
     width: 75px;
   }
+  section.working .owl-carousel .logo .img__second {
+    width: 150px;
+  }
+  section.working .owl-carousel .testimonials {
+    padding: 30px 15px;
+  }
+  section.working .owl-carousel .owl-nav .owl-prev {
+    left: 0;
+  }
+  section.working .owl-carousel .owl-nav .owl-next {
+    right: 0;
+  }
   section.working .owl-carousel .avatar img {
     width: 40px;
   }
   .title__default {
     font-size: 7vw;
+  }
+  footer .block__footer .col__footer--second .link__footer {
+    margin-left: 10px;
   }
   footer .block__footer .col__footer .social {
     margin-left: 0;
