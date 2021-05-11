@@ -1,5 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: white;
 }
 // header
 header {
@@ -149,8 +150,8 @@ section.task {
 }
 
 section.working {
-  padding-bottom: 155px;
-  background-color: #e5e5e511;
+  // padding-bottom: 155px;
+  background-color: white;
   .title__default--blue {
     color: rgba(38, 111, 226, 1);
   }
@@ -239,6 +240,7 @@ section.working {
     }
   }
   .container__bulid {
+    padding-bottom: 155px;
     padding-top: 60px;
     background: linear-gradient(180deg, #ffffff 0%, #F6F9FC 100%);
     text-align: center;

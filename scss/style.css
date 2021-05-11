@@ -1,5 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: white;
 }
 
 header {
@@ -198,8 +199,7 @@ section.task .container__task .text {
 }
 
 section.working {
-  padding-bottom: 155px;
-  background-color: #e5e5e511;
+  background-color: white;
 }
 
 section.working .title__default--blue {
@@ -320,6 +320,7 @@ section.working .owl-carousel img {
 }
 
 section.working .container__bulid {
+  padding-bottom: 155px;
   padding-top: 60px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F6F9FC));
   background: linear-gradient(180deg, #ffffff 0%, #F6F9FC 100%);
