@@ -37,9 +37,19 @@ header {
 // header
 
 section.inovation {
-  background-color: #f6f9fc;
+  position: relative;
   padding-top: 40px;
   padding-bottom: 130px;
+  .overlay__inovation{
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F9FC 100%);
+  transform: rotate(-180deg);
+  }
   .container__inovation {
     margin-top: 120px;
     display: flex;
@@ -148,7 +158,7 @@ section.working {
     position: relative;
     max-width: 1200px;
     .testimonials {
-        padding: 30px 50px;
+        padding: 30px 50px 0px;
     }
     .apostrphofe {
       position: absolute;
@@ -178,6 +188,7 @@ section.working {
       }
     }
     .owl-dots {
+      bottom: 10px;
       display: flex;
       justify-content: center;
       width: 100%;
@@ -198,7 +209,7 @@ section.working {
       }
     }
     .container {
-        position: relative;
+      position: relative;
       background-image: url(../img/carousel/sign.png);
       background-size: cover;
       background-repeat: no-repeat;
@@ -228,6 +239,8 @@ section.working {
     }
   }
   .container__bulid {
+    padding-top: 60px;
+    background: linear-gradient(180deg, #ffffff 0%, #F6F9FC 100%);
     text-align: center;
     .title__default--blue-build {
       margin-top: 40px;

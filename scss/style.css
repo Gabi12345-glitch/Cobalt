@@ -45,9 +45,22 @@ header .content .btn__contact--content {
 }
 
 section.inovation {
-  background-color: #f6f9fc;
+  position: relative;
   padding-top: 40px;
   padding-bottom: 130px;
+}
+
+section.inovation .overlay__inovation {
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F6F9FC));
+  background: linear-gradient(180deg, #FFFFFF 0%, #F6F9FC 100%);
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 section.inovation .container__inovation {
@@ -199,7 +212,7 @@ section.working .owl-carousel {
 }
 
 section.working .owl-carousel .testimonials {
-  padding: 30px 50px;
+  padding: 30px 50px 0px;
 }
 
 section.working .owl-carousel .apostrphofe {
@@ -236,6 +249,7 @@ section.working .owl-carousel .owl-nav .owl-next {
 }
 
 section.working .owl-carousel .owl-dots {
+  bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,6 +320,9 @@ section.working .owl-carousel img {
 }
 
 section.working .container__bulid {
+  padding-top: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F6F9FC));
+  background: linear-gradient(180deg, #ffffff 0%, #F6F9FC 100%);
   text-align: center;
 }
 
