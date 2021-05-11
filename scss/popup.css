@@ -25,7 +25,7 @@ header.active, main.active {
 }
 
 .container__modal {
-  z-index: 6;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
