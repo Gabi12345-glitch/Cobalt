@@ -25,6 +25,7 @@ header.active, main.active {
 }
 
 .container__modal {
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +33,7 @@ header.active, main.active {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   padding: 0 20px;
   top: 134px;

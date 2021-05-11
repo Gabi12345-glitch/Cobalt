@@ -27,11 +27,11 @@ header.active,main.active{
 
 
 .container__modal{
-    // display: none;
+    z-index: 5;
     display: flex;
     justify-content: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     padding: 0 20px;
     top: 134px;
