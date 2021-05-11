@@ -280,7 +280,7 @@ footer {
         // margin-left: 20px;
         font-size: 12px;
         text-decoration: none;
-        &:hover{
+        &:hover:not(span){
           text-decoration: underline;
         }
       }

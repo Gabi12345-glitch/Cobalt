@@ -380,7 +380,7 @@ footer .block__footer .col__footer .link__footer {
   text-decoration: none;
 }
 
-footer .block__footer .col__footer .link__footer:hover {
+footer .block__footer .col__footer .link__footer:hover:not(span) {
   text-decoration: underline;
 }
 
