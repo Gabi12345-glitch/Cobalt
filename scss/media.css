@@ -1,9 +1,3 @@
-@media screen and (max-width: 1680px) {
-  header nav {
-    padding: 20px 130px;
-  }
-}
-
 @media screen and (max-width: 1105px) {
   header .content .title {
     font-size: 6vw;
@@ -98,9 +92,6 @@
 }
 
 @media screen and (max-width: 990px) {
-  header nav {
-    padding: 20px 70px;
-  }
   .container__modal .item .title__modal {
     font-size: 25px;
   }
@@ -138,7 +129,7 @@
 }
 
 @media screen and (max-width: 630px) {
-  nav a img {
+  header nav a img {
     width: 110px;
   }
   header .content .subtitle {
