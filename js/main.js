@@ -18,7 +18,10 @@ $(document).ready(function(){
     $("main").removeClass("active");
     $(".overlay__bg").removeClass("active");
     $(".item__contact--us").removeClass("active");
+    $(".item__thank").removeClass("active");
     $("footer").removeClass("active");
+    
+     
   })
   $(".btn__contact--send").click(function(){
     $(".item__contact--us.active").removeClass("active");
