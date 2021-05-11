@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/variables.scss">
     <link rel="stylesheet" href="scss/media.css">
+    <link rel="stylesheet" href="scss/popup.css">
+    <link rel="stylesheet" href="scss/popup-media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/owl.carousel.min.css">
@@ -18,16 +20,85 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container__modal">
+        <div class="item item__contact--us">
+            <a href="#" class="close">
+                <img src="img/modal/close.png" alt="">
+            </a>
+            <div class="title__modal">
+                Contact Us
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="label">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="">Email address</label>
+                    </div>
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="label">
+                        <label for="">Message (optional)</label>
+                    </div>
+                    <div class="input">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row row__robot">
+                    <div class="inner">
+                        <div class="text__not-robot">
+                            <input class="recaptcha" type="checkbox">
+                            I'm not a robot
+                        </div>
+                        <div class="block__verefication">
+                            <img src="img/modal/CAPTCHA.jpg" alt="">
+    
+                            reCAPTCHA
+                            Privacy - Terms
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper__btn">
+                    <a href="#" class="btn__contact btn__contact--send">
+                        Send
+                    </a>
+                </div>
+            </form>
+        </div>
+    
+        <div class="item item__thank">
+            <a href="" class="close">
+                <img src="img/modal/close.png" alt="">
+            </a>
+            <div class="title__modal">
+                Thank you.
+            </div>
+            <div class="subtitle">
+                We will contact you shortly.
+            </div>
+        </div>
+    </div>
     <header>
-        
         <div class="container">
             <nav>
                 <a href="" class="logo">
                     <img src="img/header/header__logo.png" alt="">
                 </a>
-                <a href="popup.html" class="btn__contact btn__contact--header">
+                <button class="btn__contact btn__contact--header">
                     Contact Us
-                </a>
+                </button>
             </nav>
             <div class="content">
                 <div class="title">
@@ -37,15 +108,18 @@
                     Cobalt has developed its own technology stack, enabling real-world voice and language technology applications.
                     We are able to build custom technology for each of our clients’ specific requirements.
                 </div>
-                <a href="popup.html" class="btn__contact btn__contact--content">
+                <button class="btn__contact btn__contact--content">
                     Contact Us
-                </a>
+                </button>
             </div>
         </div>
         
             <canvas id="canvas"></canvas>
        
     </header>
+    <div class="overlay__bg">
+    
+    </div>
     <main>
         <section class="inovation">
             <div class="container">
