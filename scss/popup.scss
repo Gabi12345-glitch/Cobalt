@@ -3,6 +3,7 @@ body{
     // overflow: hidden;
 }
 .overlay__bg{
+    // display: none;
     z-index: 2;
     position: absolute;
     left: 0;
@@ -16,6 +17,7 @@ header,main{
     filter: blur(5px);
 }
 .container__modal{
+    // display: none;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -24,6 +26,7 @@ header,main{
     padding: 0 20px;
     top: 134px;
     .item{
+        // display: none;
         &:nth-child(1){
             margin-left: 0;
         }

@@ -241,6 +241,9 @@ section.working {
     .btn__contact--content-build {
       margin: 0 auto;
       margin-top: 60px;
+      max-width: 180px;
+      
+
     }
   }
 }
@@ -262,12 +265,35 @@ footer {
         // margin-left: 20px;
         font-size: 12px;
         text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
       }
 
       .social {
         display: flex;
         a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #ACB2CC;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
           margin-left: 15px;
+          transition: .4s ease-in;
+          i{
+            color: #ACB2CC;
+            transition: .4s ease-in;
+          }
+          &:hover i{
+            color: #62636aaa;
+            transition: .4s ease-in;
+          }
+          &:hover{
+            border: 1px solid #62636ae9;
+            
+          }
         }
       }
       .inner__col {
